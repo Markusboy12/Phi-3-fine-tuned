@@ -24,6 +24,11 @@ This project demonstrates the fine-tuning of Microsoft's **Phi-3-mini** model on
 ```text
 .
 ├── Phi_3_fine_tuning_with_Unsloth.ipynb  # Main Jupyter Notebook with full pipeline
-├── healthcare_data2.json                 # Dataset containing medical Q&A pairs
-├── requirements.txt                      # Dependencies (if running locally)
+├── config.py
+├── main.py
+├── model_setup.py
+├── data_processing.py
+├── train_model.py
+├── pretesting.py
+├── healthcare_alpaca.json                 # Dataset containing medical Q&A pairs
 └── README.md                             # This file
